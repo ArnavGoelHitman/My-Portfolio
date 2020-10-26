@@ -1,0 +1,72 @@
+h1{
+    color: aquamarine;
+    margin : 30px ;
+}
+
+/**{
+    border: solid;
+
+}*/
+.header {
+    
+    display:flex;
+    justify-content: space-between;
+    background-color: #800000;
+   
+}
+
+.header * {
+    border : solid;
+    
+}
+.menu * {
+    margin :50px;
+}
+
+a:link {
+    background-color : white;
+}
+a:visited {
+    color:blue;
+}
+
+
+
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+body{
+  background-image: url("balloon.jpg");
+  margin-top: 10%;
+  padding: 10%;
+}
+.item{
+    background-color: #000070;
+    box-shadow: inset 5px -5px 10px 10px rgba(165, 68, 68, 0.2);
+    position: relative;
+}
+
+.item p{
+
+    position : absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity:0 ;
+    
+}
+
+.item:hover p{
+    opacity:1 ;
+}
+.item:hover img{
+    opacity:0.5;
+}
